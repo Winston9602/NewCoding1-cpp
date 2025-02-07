@@ -2,8 +2,6 @@
 #include <string>		// this allows us to use the string variable type
 using namespace std;	// this adds a lot of bloat, but keeps us from typing "std::" all the time
 
-//hi
-
 //this is where the program starts running
 int main() {
 	// some hints:
