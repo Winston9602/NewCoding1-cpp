@@ -1,5 +1,7 @@
 #include <iostream>		// this sends and recieves text from the console
 #include <string>		// this allows us to use the string variable type
+#include <cstdlib>		// this allows us to use rand() and srand()
+#include <ctime>		// this allows us to use time(0)
 using namespace std;	// this adds a lot of bloat, but keeps us from typing "std::" all the time
 
 //this is where the program starts running
@@ -18,31 +20,65 @@ int main() {
 			// a double is similar to a float, but is accurate to 22 digits. that means 9,999,999,999,999,999,999,999
 		// a character is a variable for a single unicode input, i.e. one key press on the keyboard. 
 			// Example code: char answer = 'n'; defining the character type variable, called "answer", as "n"
+		// a string is an array of characters, in an ordered list, one after the other.
+			// Booleans are a variable type that can only be true/false, yes/no, on/off, etc.
+	// About random number generators: include (except the quotation marks)...
+		// "#include <cstdlib>"			for rand() and srand()
+		// "#include <ctime>"			for time()
+		// ALWAYS seed your random number generator ONCE, at the beginning of your program.
+
+	srand(time(0));						//seeding the random number generator
+
+	bool debug = true;					// TURN THIS TO FALSE BEFORE SHIPPING
+	if (debug) cout << "DEBUG MODE IS ON\n";
 
 	//this list defines the variables used, along with their initial values
-	int health = 10; 
+	int health = 10;
 	int attack = 0;
 	int block = 0;
 	int turns = 0;
 	char answer;									// this stores the user's input for the character variable called "answer"
+	bool playerIsAlive = true;						// this sets up the boolean "playerIsAlive" to start as true
+	int score = -5;									// this will keep track of the score
 
-	cout << "Health is " << health << ".\n";		// initial announcement of the player's health at game launch
+	string input = "";						//this will store the user's text input
 
-	if (health > 0) {
-		cout << "You are still alive!\n";
+	cout << "What is your name?\n";
+	cin >> input;							//for example, input = Mason
+
+	cout << "Hello " << input << "!\n";
+	cout << "You begin with " << health << " health.\n";		// initial announcement of the player's health at game launch
+
+	
+	// below is the simplest kind of loop. It runs as long as the test is true: while(test) { code block }
+	while (playerIsAlive) {
+		string input;
+
+		//score = score + 5; ...This would allow us to add 5 to the score every time the loop it is within loops. But the code in the next line is a better way to write the same thing.
+		score += 5;			//Called a "combined assignment operator", this adds 5 to the value of the score
+
+		if (debug) cout << "DEBUG: score = " << score << "\n";
+
+		cout << "Are you dead yet?\n";
+		cin >> input;
+
+		if (input == "yes") {
+			playerIsAlive = false;				//this will make the loop stop
+		}
 	}
-	else
-		cout << "You died. :(\n";
 
-	cout << "Please press Y on the keyboard\n";		// asks the user for an input
-	cin >> answer;									// takes the user's input and stores it in the answer variable
+	if (debug) cout << "score after loop: " << score << "\n";
 
-	if (answer == 'y') {							// tests the input
-		cout << "you pressed Y!\n";					// print text
+	cout << "Oh no, may you rest in peace.\n";
+	cout << "Final score..." << score << ".\n";
 
-	}
-	else {											// if the test was false, do this
-		cout << "you did not press Y.";				// print text
+	cout << "By the way, here are 10 random numbers: \n";
+	int count = 0;
+	while (count < 10) {
+		count += 1;								// add one to the count
+		cout << (rand() % 10) + 1 << "\n";					// display a random number. The "%" works as a modulus operator, which does some quick math to divide the... 
+															// random number that was drawn by, in this case, 10, and keep the remainder. Then, because remainders can be zero, ...
+															// we add one to each remainder to make the random numbers a range from 1 to 10
 	}
 
 } // this is the end of main()

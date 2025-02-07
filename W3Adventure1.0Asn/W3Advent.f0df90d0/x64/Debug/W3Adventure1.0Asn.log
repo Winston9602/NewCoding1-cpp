@@ -1,3 +1,4 @@
 ﻿  W3Adventure1.0Asn.cpp
-  LINK : C:\Users\Macef\GitHub\NewCoding1-cpp\W3Adventure1.0Asn\x64\Debug\W3Adventure1.0Asn.exe not found or not built by the last incremental link; performing full link
-  W3Adventure1.0Asn.vcxproj -> C:\Users\Macef\GitHub\NewCoding1-cpp\W3Adventure1.0Asn\x64\Debug\W3Adventure1.0Asn.exe
+C:\Users\Mason\Documents\GitHub\NewCoding1-cpp\W3Adventure1.0Asn\W3Adventure1.0Asn.cpp(30,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Mason\Documents\GitHub\NewCoding1-cpp\W3Adventure1.0Asn\W3Adventure1.0Asn.cpp(40,7): warning C4101: 'answer': unreferenced local variable
+  W3Adventure1.0Asn.vcxproj -> C:\Users\Mason\Documents\GitHub\NewCoding1-cpp\W3Adventure1.0Asn\x64\Debug\W3Adventure1.0Asn.exe
