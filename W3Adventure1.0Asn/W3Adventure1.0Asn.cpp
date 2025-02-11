@@ -4,8 +4,117 @@
 #include <ctime>		// this allows us to use time(0)
 using namespace std;	// this adds a lot of bloat, but keeps us from typing "std::" all the time
 
+
+/*ASSIGNMENT: 
+welcome the player
+
+set up the game
+    int health = 10, attack, block, turns = 0
+    seed the random number generator
+start the loop
+    add 1 to turns
+    start the encounter
+        randomly generate numbers for attack (range = 0-4) and block (range = 0-4)
+        if block is greater or equal to attack, successful block
+        otherwise, subtract attack value from health.
+        ask the player if they would like to keep adventuring. if they don't, break out of the loop.
+keep looping while health is greater than zero and fewer than 4 turns have happened
+ 
+if health is greater than 0, congratulate player
+otherwise, tell the player they're dead.*/
+
+
 //this is where the program starts running
 int main() {
+	
+	bool debug = true;			// TURN TO FALSE BEFORE SHIPPING		// boolean for debug mode. 
+// ASSIGNMENT:
+// welcome the player
+	cout << "Hello player!\n";									// Print text to say hello to the player
+// set up the game
+    // int health = 10, attack, block, turns = 0
+	int health = 10;											// defining integer variables to be used in the game
+	int attack = 0;
+	int block = 0;
+	int turns = 0;
+	// seed the random number generator
+	srand(time(0));												// seeds the r.n.g. based on the time of day
+
+	if (debug) {												// prints text to let developers know when...
+		cout << "DEBUG IS ON\n";								// debug mode is on, and...
+		cout << "10 random numbers: \n";						// gives 10 random numbers based off of the seeded r.n.g. to..
+		int count = 0;											// prove that it is working properly
+		while (count < 10) {
+			count += 1;
+			cout << (rand() % 10) + 1 << "\n";
+		}
+	}
+	// start the encounter
+	cout << "While adventuring through the woods, you come to a bridge.\n";
+	cout << "A BLACK KNIGHT guards the bridge and will not let you pass without a fight!\n";
+	cout << "How long can you make it without dying? (type 'y' to block their attacks, or 'n' to flee)\n";
+
+	// start the loop
+	while (health > 0) {										// starts a loop, which will end when health reaches 0
+		// add 1 to turns
+		turns += 1;
+		if (debug) {
+			cout << "DEBUG: Turn #" << turns << "\n";			//debug: desplays the turn number
+		}
+		if (debug) {
+			cout << "DEBUG: Health = " << health << "\n";		//debug: displays the current health
+		}
+		string input == "";
+		cin >> input;
+			if (input = "yes");
+				// randomly generate numbers for attack (range = 0-4) and block (range = 0-4)
+				attack = (rand() % 4) + 1;
+				cout << "BLACK KNIGHT attacks for " << attack << "!\n";
+				block = (rand() % 4) + 1;
+				cout << "YOU block for " << block << "!\n";
+
+
+				// if block is greater or equal to attack, successful block
+				if (attack < block) {
+					cout << "Your block was successful!\n";
+				}
+				// otherwise, subtract attack value from health.
+				else {
+					cout << "The BLACK KNIGHT's attack breaks through! They hit you for " << attack - block << "!\n";
+					health -= (attack -= block);
+					cout << "You now have " << health << " health left!\n";
+				}
+				
+
+				string input;
+				// ask the player if they would like to keep adventuring. if they don't, break out of the loop.
+				cout << "Would you like to keep fighting? (type 'y' or 'n')\n";
+				cin >> input2;
+				if (input2) {
+					input1 = false;
+				}
+ }
+
+
+	if (health > 0) {
+		cout << "You got away with your life!\n";
+	}
+	else {
+		cout << "Oh no, they finally got you :(\n";
+	}
+	cout << "You lasted " << turns << " turns!\n";					// announces how long the player lasted after the game ends
+	cout << "Thanks for playing!\n";
+	
+	
+		
+		
+// keep looping while health is greater than zero and fewer than 4 turns have happened
+ 
+// if health is greater than 0, congratulate player
+// otherwise, tell the player they're dead.
+
+	
+	
 	// some hints:
 	// an "if statement" is a test. If the test is true, the code block runs. If the test is false, or NOT true, the code block does NOT run.
 		// formatting: if(test) { code block }
@@ -27,6 +136,9 @@ int main() {
 		// "#include <ctime>"			for time()
 		// ALWAYS seed your random number generator ONCE, at the beginning of your program.
 
+
+
+	/*
 	srand(time(0));						//seeding the random number generator
 
 	bool debug = true;					// TURN THIS TO FALSE BEFORE SHIPPING
@@ -80,5 +192,5 @@ int main() {
 															// random number that was drawn by, in this case, 10, and keep the remainder. Then, because remainders can be zero, ...
 															// we add one to each remainder to make the random numbers a range from 1 to 10
 	}
-
+	*/
 } // this is the end of main()

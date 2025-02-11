@@ -1,4 +1,15 @@
 ﻿  W3Adventure1.0Asn.cpp
-C:\Users\Mason\Documents\GitHub\NewCoding1-cpp\W3Adventure1.0Asn\W3Adventure1.0Asn.cpp(30,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Mason\Documents\GitHub\NewCoding1-cpp\W3Adventure1.0Asn\W3Adventure1.0Asn.cpp(40,7): warning C4101: 'answer': unreferenced local variable
-  W3Adventure1.0Asn.vcxproj -> C:\Users\Mason\Documents\GitHub\NewCoding1-cpp\W3Adventure1.0Asn\x64\Debug\W3Adventure1.0Asn.exe
+C:\Users\Macef\GitHub\NewCoding1-cpp\W3Adventure1.0Asn\W3Adventure1.0Asn.cpp(41,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Macef\GitHub\NewCoding1-cpp\W3Adventure1.0Asn\W3Adventure1.0Asn.cpp(67,16): error C2143: syntax error: missing ';' before '=='
+C:\Users\Macef\GitHub\NewCoding1-cpp\W3Adventure1.0Asn\W3Adventure1.0Asn.cpp(69,14): error C2451: a conditional expression of type 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' is not valid
+      C:\Users\Macef\GitHub\NewCoding1-cpp\W3Adventure1.0Asn\W3Adventure1.0Asn.cpp(69,14):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+C:\Users\Macef\GitHub\NewCoding1-cpp\W3Adventure1.0Asn\W3Adventure1.0Asn.cpp(89,12): error C2086: 'std::string input': redefinition
+      C:\Users\Macef\GitHub\NewCoding1-cpp\W3Adventure1.0Asn\W3Adventure1.0Asn.cpp(67,10):
+      see declaration of 'input'
+  
+C:\Users\Macef\GitHub\NewCoding1-cpp\W3Adventure1.0Asn\W3Adventure1.0Asn.cpp(92,12): error C2065: 'input2': undeclared identifier
+C:\Users\Macef\GitHub\NewCoding1-cpp\W3Adventure1.0Asn\W3Adventure1.0Asn.cpp(93,9): error C2065: 'input2': undeclared identifier
+C:\Users\Macef\GitHub\NewCoding1-cpp\W3Adventure1.0Asn\W3Adventure1.0Asn.cpp(94,6): error C2065: 'input1': undeclared identifier
+C:\Users\Macef\GitHub\NewCoding1-cpp\W3Adventure1.0Asn\W3Adventure1.0Asn.cpp(69,22): warning C4390: ';': empty controlled statement found; is this the intent?
