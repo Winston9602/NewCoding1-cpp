@@ -18,5 +18,8 @@
     <ClCompile Include="W3Adventure1.0Asn.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Loops&amp;Lists.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

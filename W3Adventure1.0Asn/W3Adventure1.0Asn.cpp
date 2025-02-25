@@ -64,13 +64,13 @@ int main() {
 		if (debug) {
 			cout << "DEBUG: Health = " << health << "\n";		//debug: displays the current health
 		}
-		string input == "";
+		string input;
 		cin >> input;
-			if (input = "yes");
+		if (input != "yes") {}			// move this closing curly bracket
 				// randomly generate numbers for attack (range = 0-4) and block (range = 0-4)
-				attack = (rand() % 4) + 1;
+				attack = (rand() % 5);
 				cout << "BLACK KNIGHT attacks for " << attack << "!\n";
-				block = (rand() % 4) + 1;
+				block = (rand() % 5);
 				cout << "YOU block for " << block << "!\n";
 
 
@@ -78,6 +78,7 @@ int main() {
 				if (attack < block) {
 					cout << "Your block was successful!\n";
 				}
+
 				// otherwise, subtract attack value from health.
 				else {
 					cout << "The BLACK KNIGHT's attack breaks through! They hit you for " << attack - block << "!\n";
