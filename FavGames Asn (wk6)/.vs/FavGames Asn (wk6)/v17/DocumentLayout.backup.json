@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\FavGames Asn (wk6)\\",
+  "WorkspaceRootPath": "C:\\Users\\Mason\\Documents\\GitHub\\NewCoding1-cpp\\FavGames Asn (wk6)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09B0741F-E444-4E27-A305-69FEF2B7FC20}|FavGames Asn (wk6).vcxproj|C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\FavGames Asn (wk6)\\FavGames Asn (wk6).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{09B0741F-E444-4E27-A305-69FEF2B7FC20}|FavGames Asn (wk6).vcxproj|C:\\Users\\Mason\\Documents\\GitHub\\NewCoding1-cpp\\FavGames Asn (wk6)\\FavGames Asn (wk6).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{09B0741F-E444-4E27-A305-69FEF2B7FC20}|FavGames Asn (wk6).vcxproj|solutionrelative:FavGames Asn (wk6).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -21,50 +21,27 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Loops\u0026Lists.cpp",
-              "DocumentMoniker": "C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk6.2\\Loops\u0026Lists.cpp",
-              "RelativeDocumentMoniker": "..\\Wk6.2\\Loops\u0026Lists.cpp",
-              "ToolTip": "C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk6.2\\Loops\u0026Lists.cpp",
-              "RelativeToolTip": "..\\Wk6.2\\Loops\u0026Lists.cpp",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-02T20:46:13.729Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "56504d79-e27d-4a60-9ca3-dda713e9fbb9",
-        "Display": 0,
-        "X": 321,
-        "Y": 137,
-        "Width": 678,
-        "Height": 558,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FavGames Asn (wk6).cpp",
-              "DocumentMoniker": "C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\FavGames Asn (wk6)\\FavGames Asn (wk6).cpp",
+              "DocumentMoniker": "C:\\Users\\Mason\\Documents\\GitHub\\NewCoding1-cpp\\FavGames Asn (wk6)\\FavGames Asn (wk6).cpp",
               "RelativeDocumentMoniker": "FavGames Asn (wk6).cpp",
-              "ToolTip": "C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\FavGames Asn (wk6)\\FavGames Asn (wk6).cpp",
+              "ToolTip": "C:\\Users\\Mason\\Documents\\GitHub\\NewCoding1-cpp\\FavGames Asn (wk6)\\FavGames Asn (wk6).cpp",
               "RelativeToolTip": "FavGames Asn (wk6).cpp",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAUwAwAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAF0AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-02T20:46:03.848Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Loops\u0026Lists.cpp",
+              "DocumentMoniker": "C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk6.2\\Loops\u0026Lists.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Macef\\GitHub\\NewCoding1-cpp\\Wk6.2\\Loops\u0026Lists.cpp",
+              "ToolTip": "C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk6.2\\Loops\u0026Lists.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Macef\\GitHub\\NewCoding1-cpp\\Wk6.2\\Loops\u0026Lists.cpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-02T20:46:13.729Z"
             }
           ]
         }
