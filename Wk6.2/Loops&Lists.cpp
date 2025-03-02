@@ -28,7 +28,7 @@ int main() {
 	//add 3 more scores using element++ to keep track of where you are in the list
 
 	element = 1;						//point at the second element in the list
-	scores[element++] = 682;			//the postfix encrement operator adds 1 AFTER the line runs.
+	scores[element++] = 682;			//the postfix increment operator adds 1 AFTER the line runs.
 	scores[element++] = 604;
 	scores[element++] = 412;
 
@@ -42,7 +42,7 @@ int main() {
 	while (counter < element) {						//while counter is less than element, keep looping
 		if (scores[counter] < 0) {
 			counter += 1;
-			continue;								//stope the code here, go to the next loop
+			continue;								//stop the code here, go to the next loop
 		}
 		cout << scores[counter] << ".\n";
 		counter += 1;								//add 1 to counter every loop, so it points at the next thing
