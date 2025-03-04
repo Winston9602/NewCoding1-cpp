@@ -99,9 +99,9 @@ int main()
 			cout << "Type the item's corresponding number to remove it\n";
 			getline(cin, input);																			//get input
 
+			//I don't know where to start with programming the Remove or Edit commands
 
-		}
-			
+			//TO DO:
 			//compare input to each existing name in the list, until either the name is found or the list has been exhausted
 				//if no matching name is found in the list...
 					//tell the player nothing was found that matched their input
@@ -111,6 +111,7 @@ int main()
 					//change the value of the name in the list to null
 					//tell the player the name has been removed successfully
 					//return to the start of the loop at position 0
+		}	
 					
 		//5. Edit
 			//ask the player which name they want to edit
