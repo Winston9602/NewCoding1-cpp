@@ -62,16 +62,18 @@ int main() {
 		getline(cin, input);
 		int playerGuess = 0;
 
-		try {
-			int playerGuess = stoi(input);
-		}
-		catch (invalid_argument) {
-			cout << "That's not a number, please try again.\n";
-		}
 
 		if (input == "quit") {
 			cout << "Okay, see you later!\n";
 			break;
+		}
+
+		try {													//this try/catch section prevents a crash that can happen due to 'stoi(input)'
+			int playerGuess = stoi(input);						//which can happen when the input is anything but a number
+		}
+		catch (invalid_argument) {
+			cout << "That's not a number, please try again.\n";
+			continue;
 		}
 
 		if (stoi(input) == theNumber) {
