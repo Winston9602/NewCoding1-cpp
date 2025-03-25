@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E800DC45-D460-4270-AC9A-7E9BC4215A96}|Wk10.vcxproj|C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk10\\Wk10.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E800DC45-D460-4270-AC9A-7E9BC4215A96}|Wk10.vcxproj|solutionrelative:Wk10.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Wk10.cpp",
+              "DocumentMoniker": "C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk10\\Wk10.cpp",
+              "RelativeDocumentMoniker": "Wk10.cpp",
+              "ToolTip": "C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk10\\Wk10.cpp",
+              "RelativeToolTip": "Wk10.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-25T14:42:54.437Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
