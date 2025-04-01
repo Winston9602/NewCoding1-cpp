@@ -58,8 +58,8 @@ bool askYesNo(string question = "PLACEHOLDER QUESTION") {
 		//return type is int
 void rollDie(int dieSides = 6) {
 	srand(time(0));								//seeds the r.n.g. based on the time of day
-	dieRoll1 = (rand() % dieSides) + 1;
-	dieRoll2 = (rand() % dieSides) + 1;
+	dieRoll1 = (rand() % dieSides) + 1;								//fix for problem I had to work around:
+	dieRoll2 = (rand() % dieSides) + 1;									//put srand within int main() - shomething to do with srand generating a number list and using the same list as reference when having it in rollDie function
 	dieRoll3 = (rand() % dieSides) + 1;
 	if (debug) {
 		cout << "*DEBUG: dieRoll1 is " << dieRoll1 << ", dieRoll2 is " << dieRoll2 << ", dieRoll3 is " << dieRoll3 << ".\n";

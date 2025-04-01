@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Mason\\Documents\\GitHub\\NewCoding1-cpp\\Adventure 2.0\\",
+  "WorkspaceRootPath": "C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Adventure 2.0\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21CF1295-B058-4B6F-9707-0EA606759729}|Adventure 2.0.vcxproj|C:\\Users\\Mason\\Documents\\GitHub\\NewCoding1-cpp\\Adventure 2.0\\Adventure 2.0.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{21CF1295-B058-4B6F-9707-0EA606759729}|Adventure 2.0.vcxproj|C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Adventure 2.0\\Adventure 2.0.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{21CF1295-B058-4B6F-9707-0EA606759729}|Adventure 2.0.vcxproj|solutionrelative:Adventure 2.0.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Adventure 2.0.cpp",
-              "DocumentMoniker": "C:\\Users\\Mason\\Documents\\GitHub\\NewCoding1-cpp\\Adventure 2.0\\Adventure 2.0.cpp",
+              "DocumentMoniker": "C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Adventure 2.0\\Adventure 2.0.cpp",
               "RelativeDocumentMoniker": "Adventure 2.0.cpp",
-              "ToolTip": "C:\\Users\\Mason\\Documents\\GitHub\\NewCoding1-cpp\\Adventure 2.0\\Adventure 2.0.cpp",
+              "ToolTip": "C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Adventure 2.0\\Adventure 2.0.cpp",
               "RelativeToolTip": "Adventure 2.0.cpp",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAAAG4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAD0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-26T00:15:54.395Z",
               "EditorCaption": ""
