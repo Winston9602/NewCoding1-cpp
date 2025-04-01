@@ -30,6 +30,7 @@ void story() {
 	cout << "(you start with " << health << " health)\n";
 }
 
+
 	//AskYesNo()
 		//One string argument named "question"
 		// return type is bool
@@ -51,12 +52,6 @@ bool askYesNo(string question = "PLACEHOLDER QUESTION") {
 	} while (true);
 }
 
-void ending() {
-	if (health < 0) {
-		cout << "You turn and run for the hills!\n";
-		cout << "You escape with " << health << " health remaining.\n";
-	}
-}
 
 	//RollDie()
 		//one int parameter named "sides" with a default value of 6
@@ -73,6 +68,7 @@ void rollDie(int dieSides = 6) {
 	
 }
 	
+
 	//Adventure()
 		//return type is void or bool
 		//calls rollDie() for attack, block, & treasure
@@ -134,6 +130,7 @@ int main() {
 			else {
 				cout << "You escape with your life, having nothing to show for your time in the woods.\n";
 			} break;
+			
 		}
 	}
 }
