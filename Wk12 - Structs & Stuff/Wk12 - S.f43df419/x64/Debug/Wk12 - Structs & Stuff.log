@@ -1,0 +1,3 @@
+﻿  Wk12 - Classes.cpp
+Wk12 - Structs & Stuff.obj : error LNK2005: main already defined in Wk12 - Classes.obj
+C:\Users\Macef\GitHub\NewCoding1-cpp\Wk12 - Structs & Stuff\x64\Debug\Wk12 - Structs & Stuff.exe : fatal error LNK1169: one or more multiply defined symbols found

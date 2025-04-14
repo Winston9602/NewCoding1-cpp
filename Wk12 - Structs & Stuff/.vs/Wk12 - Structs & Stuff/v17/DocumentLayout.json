@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk12 - Structs \u0026 Stuff\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F43DF419-63D6-4989-8E29-1637947036C0}|Wk12 - Structs \u0026 Stuff.vcxproj|C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk12 - Structs \u0026 Stuff\\Wk12 - Structs \u0026 Stuff.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F43DF419-63D6-4989-8E29-1637947036C0}|Wk12 - Structs \u0026 Stuff.vcxproj|solutionrelative:Wk12 - Structs \u0026 Stuff.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Wk12 - Structs \u0026 Stuff.cpp",
+              "DocumentMoniker": "C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk12 - Structs \u0026 Stuff\\Wk12 - Structs \u0026 Stuff.cpp",
+              "RelativeDocumentMoniker": "Wk12 - Structs \u0026 Stuff.cpp",
+              "ToolTip": "C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk12 - Structs \u0026 Stuff\\Wk12 - Structs \u0026 Stuff.cpp",
+              "RelativeToolTip": "Wk12 - Structs \u0026 Stuff.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-13T20:32:36.955Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
