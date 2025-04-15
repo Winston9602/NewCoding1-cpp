@@ -12,7 +12,7 @@ using namespace std;
 //use the class keyword to create a class named "robot"
 //don't forget the semi-colon after the curly braces.
 class robot {
-private:						//anyone can see this, call this, change this
+private:						//only I can see this, call this, change this
 		//Our Data Members:
 	string name;
 	string phrase;
@@ -20,7 +20,7 @@ private:						//anyone can see this, call this, change this
 	int maxCharge = 100;
 	int minCharge = 0;
 	
-public:					//only I can see this, call this, change this
+public:					//anyone can see this, call this, change this
 		//Our Member Functions
 		//function declarations, to be defined later
 		//function declarations dont require parameter names

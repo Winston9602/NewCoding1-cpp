@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk12 HW - Human Class\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A30AB0-18DC-4F25-B8B1-65DCF0EFB600}|Wk12 HW - Human Class.vcxproj|C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk12 HW - Human Class\\Wk12 HW - Human Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E8A30AB0-18DC-4F25-B8B1-65DCF0EFB600}|Wk12 HW - Human Class.vcxproj|solutionrelative:Wk12 HW - Human Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Wk12 HW - Human Class.cpp",
+              "DocumentMoniker": "C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk12 HW - Human Class\\Wk12 HW - Human Class.cpp",
+              "RelativeDocumentMoniker": "Wk12 HW - Human Class.cpp",
+              "ToolTip": "C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk12 HW - Human Class\\Wk12 HW - Human Class.cpp",
+              "RelativeToolTip": "Wk12 HW - Human Class.cpp",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAD4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-14T23:34:48.95Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
