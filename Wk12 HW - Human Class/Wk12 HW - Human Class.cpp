@@ -82,4 +82,8 @@ int main() {
 
 	cout << "Please welcome, my new friend Jeff!\n";
 	jeff.SayHello();
+
+	human bill("Bill", 10, 1);
+	bill.SayHello();
+
 }
