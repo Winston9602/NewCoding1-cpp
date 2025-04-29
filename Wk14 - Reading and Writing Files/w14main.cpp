@@ -30,6 +30,9 @@ int main() {
 	ReadFromFile();			//edit the file.txt to include 3 lines of games to play
 	WriteToFile();			//please confirm that the file was created on your hard drive (yes!)
 
+
+
+	/*
 	string favs[100];
 	int nextIndex = 0;
 
@@ -49,4 +52,5 @@ int main() {
 	}
 
 	WriteArrayToFile(favs, nextIndex);
+	*/
 }

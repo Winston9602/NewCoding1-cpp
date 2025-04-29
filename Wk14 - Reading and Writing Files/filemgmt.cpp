@@ -42,3 +42,7 @@ void WriteArrayToFile(string* arr, int size) {
 
 	file.close();
 }
+
+void ReadFileToArray() {
+
+}
