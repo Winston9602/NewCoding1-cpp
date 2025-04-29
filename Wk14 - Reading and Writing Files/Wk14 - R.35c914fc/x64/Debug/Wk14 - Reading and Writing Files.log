@@ -1,4 +1,10 @@
-﻿  filemgmt.cpp
+﻿  item.cpp
   w14main.cpp
+C:\Users\Macef\GitHub\NewCoding1-cpp\Wk14 - Reading and Writing Files\item.h(14,11): error C3646: 'location': unknown override specifier
+  (compiling source file 'item.cpp')
+  
+C:\Users\Macef\GitHub\NewCoding1-cpp\Wk14 - Reading and Writing Files\item.h(14,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'item.cpp')
+  
+C:\Users\Macef\GitHub\NewCoding1-cpp\Wk14 - Reading and Writing Files\item.cpp(8,11): error C2513: 'location': no variable declared before '='
   Generating Code...
-  Wk14 - Reading and Writing Files.vcxproj -> C:\Users\Macef\GitHub\NewCoding1-cpp\Wk14 - Reading and Writing Files\x64\Debug\Wk14 - Reading and Writing Files.exe

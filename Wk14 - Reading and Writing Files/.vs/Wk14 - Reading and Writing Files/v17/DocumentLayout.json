@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{35C914FC-BF22-4C07-8864-6816AD60E7A8}|Wk14 - Reading and Writing Files.vcxproj|solutionrelative:w14main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{35C914FC-BF22-4C07-8864-6816AD60E7A8}|Wk14 - Reading and Writing Files.vcxproj|C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk14 - Reading and Writing Files\\filemgmt.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{35C914FC-BF22-4C07-8864-6816AD60E7A8}|Wk14 - Reading and Writing Files.vcxproj|solutionrelative:filemgmt.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{35C914FC-BF22-4C07-8864-6816AD60E7A8}|Wk14 - Reading and Writing Files.vcxproj|C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk14 - Reading and Writing Files\\item.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{35C914FC-BF22-4C07-8864-6816AD60E7A8}|Wk14 - Reading and Writing Files.vcxproj|solutionrelative:item.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35C914FC-BF22-4C07-8864-6816AD60E7A8}|Wk14 - Reading and Writing Files.vcxproj|C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk14 - Reading and Writing Files\\item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{35C914FC-BF22-4C07-8864-6816AD60E7A8}|Wk14 - Reading and Writing Files.vcxproj|solutionrelative:item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35C914FC-BF22-4C07-8864-6816AD60E7A8}|Wk14 - Reading and Writing Files.vcxproj|C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk14 - Reading and Writing Files\\filemgmt.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{35C914FC-BF22-4C07-8864-6816AD60E7A8}|Wk14 - Reading and Writing Files.vcxproj|solutionrelative:filemgmt.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35C914FC-BF22-4C07-8864-6816AD60E7A8}|Wk14 - Reading and Writing Files.vcxproj|C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk14 - Reading and Writing Files\\filemgmt.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -34,7 +34,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "item.cpp",
               "DocumentMoniker": "C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk14 - Reading and Writing Files\\item.cpp",
               "RelativeDocumentMoniker": "item.cpp",
@@ -42,12 +42,11 @@
               "RelativeToolTip": "item.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-22T15:55:57.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T15:55:57.835Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "item.h",
               "DocumentMoniker": "C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk14 - Reading and Writing Files\\item.h",
               "RelativeDocumentMoniker": "item.h",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "item.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-22T15:55:45.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T15:55:45.432Z"
             },
             {
               "$type": "Document",
@@ -68,18 +66,17 @@
               "RelativeToolTip": "filemgmt.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-22T15:39:29.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T15:39:29.717Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "filemgmt.cpp",
               "DocumentMoniker": "C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk14 - Reading and Writing Files\\filemgmt.cpp",
               "RelativeDocumentMoniker": "filemgmt.cpp",
               "ToolTip": "C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk14 - Reading and Writing Files\\filemgmt.cpp",
               "RelativeToolTip": "filemgmt.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-22T15:38:33.918Z",
               "EditorCaption": ""
@@ -92,7 +89,7 @@
               "RelativeDocumentMoniker": "w14main.cpp",
               "ToolTip": "C:\\Users\\Macef\\GitHub\\NewCoding1-cpp\\Wk14 - Reading and Writing Files\\w14main.cpp",
               "RelativeToolTip": "w14main.cpp",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAswBcAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-22T14:50:17.006Z",
               "EditorCaption": ""
